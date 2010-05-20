@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CardSharkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		216A36CA118A270200FEC238 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216A36C9118A270200FEC238 /* DetailView.xib */; };
+		219AEC3811890A3B00293338 /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC1311890A3A00293338 /* GTMObjC2Runtime.m */; };
+		219AEC3911890A3B00293338 /* GTMStackTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC1711890A3A00293338 /* GTMStackTrace.m */; };
+		219AEC3A11890A3B00293338 /* AddOns.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC1A11890A3A00293338 /* AddOns.mm */; };
+		219AEC3B11890A3B00293338 /* GoFishGameModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC1F11890A3A00293338 /* GoFishGameModel.mm */; };
+		219AEC3C11890A3B00293338 /* GameModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC2111890A3A00293338 /* GameModel.mm */; };
+		219AEC3D11890A3B00293338 /* HotSpotModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC2711890A3B00293338 /* HotSpotModel.mm */; };
+		219AEC3E11890A3B00293338 /* CardModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC2A11890A3B00293338 /* CardModel.mm */; };
+		219AEC3F11890A3B00293338 /* GameObjectModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC2C11890A3B00293338 /* GameObjectModel.mm */; };
+		219AEC4011890A3B00293338 /* GameObjectView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC3011890A3B00293338 /* GameObjectView.mm */; };
+		219AEC4111890A3B00293338 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC3411890A3B00293338 /* GameViewController.mm */; };
+		219AEC4211890A3B00293338 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219AEC3511890A3B00293338 /* GameViewController.xib */; };
+		219AEC4311890A3B00293338 /* SettingsPopoverController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AEC3711890A3B00293338 /* SettingsPopoverController.mm */; };
+		219AEC4C11890A8800293338 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219AEC4B11890A8800293338 /* QuartzCore.framework */; };
+		219AECA8118A1BD500293338 /* StartDetailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AECA6118A1BD500293338 /* StartDetailViewController.mm */; };
+		219AECAC118A1C0600293338 /* StartRootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AECAB118A1C0600293338 /* StartRootViewController.mm */; };
+		219AECAF118A21FD00293338 /* StartViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 219AECAE118A21FD00293338 /* StartViewController.mm */; };
+		28193055112F811F00ECF9B4 /* CardShark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28193054112F811F00ECF9B4 /* CardShark.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CardSharkAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardSharkAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardSharkAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CardShark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardShark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		216A36C9118A270200FEC238 /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		219AEC1311890A3A00293338 /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2Runtime.m; sourceTree = "<group>"; };
+		219AEC1411890A3A00293338 /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjC2Runtime.h; sourceTree = "<group>"; };
+		219AEC1511890A3A00293338 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		219AEC1611890A3A00293338 /* GTM_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTM_Prefix.pch; sourceTree = "<group>"; };
+		219AEC1711890A3A00293338 /* GTMStackTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStackTrace.m; sourceTree = "<group>"; };
+		219AEC1811890A3A00293338 /* GTMStackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStackTrace.h; sourceTree = "<group>"; };
+		219AEC1911890A3A00293338 /* AddOns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOns.h; sourceTree = "<group>"; };
+		219AEC1A11890A3A00293338 /* AddOns.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AddOns.mm; sourceTree = "<group>"; };
+		219AEC1E11890A3A00293338 /* GoFishGameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoFishGameModel.h; sourceTree = "<group>"; };
+		219AEC1F11890A3A00293338 /* GoFishGameModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GoFishGameModel.mm; sourceTree = "<group>"; };
+		219AEC2011890A3A00293338 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		219AEC2111890A3A00293338 /* GameModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameModel.mm; sourceTree = "<group>"; };
+		219AEC2211890A3A00293338 /* GameModelIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModelIncludes.h; sourceTree = "<group>"; };
+		219AEC2611890A3A00293338 /* HotSpotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSpotModel.h; sourceTree = "<group>"; };
+		219AEC2711890A3B00293338 /* HotSpotModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HotSpotModel.mm; sourceTree = "<group>"; };
+		219AEC2911890A3B00293338 /* CardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardModel.h; sourceTree = "<group>"; };
+		219AEC2A11890A3B00293338 /* CardModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CardModel.mm; sourceTree = "<group>"; };
+		219AEC2B11890A3B00293338 /* GameObjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObjectModel.h; sourceTree = "<group>"; };
+		219AEC2C11890A3B00293338 /* GameObjectModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameObjectModel.mm; sourceTree = "<group>"; };
+		219AEC2F11890A3B00293338 /* GameObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObjectView.h; sourceTree = "<group>"; };
+		219AEC3011890A3B00293338 /* GameObjectView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameObjectView.mm; sourceTree = "<group>"; };
+		219AEC3311890A3B00293338 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		219AEC3411890A3B00293338 /* GameViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
+		219AEC3511890A3B00293338 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		219AEC3611890A3B00293338 /* SettingsPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsPopoverController.h; sourceTree = "<group>"; };
+		219AEC3711890A3B00293338 /* SettingsPopoverController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsPopoverController.mm; sourceTree = "<group>"; };
+		219AEC4B11890A8800293338 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		219AECA5118A1BD500293338 /* StartDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartDetailViewController.h; sourceTree = "<group>"; };
+		219AECA6118A1BD500293338 /* StartDetailViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StartDetailViewController.mm; sourceTree = "<group>"; };
+		219AECAA118A1C0600293338 /* StartRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartRootViewController.h; sourceTree = "<group>"; };
+		219AECAB118A1C0600293338 /* StartRootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StartRootViewController.mm; sourceTree = "<group>"; };
+		219AECAD118A21FD00293338 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		219AECAE118A21FD00293338 /* StartViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StartViewController.mm; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* CardShark.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CardShark.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CardShark_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardShark_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CardShark-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CardShark-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				219AEC4C11890A8800293338 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC3111890A3B00293338 /* Controllers */,
+				219AEC2D11890A3B00293338 /* Views */,
+				219AEC1B11890A3A00293338 /* Models */,
+				219AEC1111890A3A00293338 /* Utilities */,
+				1D3623240D0F684500981E51 /* CardSharkAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CardShark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		219AEC1111890A3A00293338 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC1911890A3A00293338 /* AddOns.h */,
+				219AEC1A11890A3A00293338 /* AddOns.mm */,
+				219AEC1211890A3A00293338 /* GTM */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		219AEC1211890A3A00293338 /* GTM */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC1311890A3A00293338 /* GTMObjC2Runtime.m */,
+				219AEC1411890A3A00293338 /* GTMObjC2Runtime.h */,
+				219AEC1511890A3A00293338 /* GTMDefines.h */,
+				219AEC1611890A3A00293338 /* GTM_Prefix.pch */,
+				219AEC1711890A3A00293338 /* GTMStackTrace.m */,
+				219AEC1811890A3A00293338 /* GTMStackTrace.h */,
+			);
+			name = GTM;
+			sourceTree = "<group>";
+		};
+		219AEC1B11890A3A00293338 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC2411890A3A00293338 /* GameObjectModel */,
+				219AEC2311890A3A00293338 /* PlayerModel */,
+				219AEC1C11890A3A00293338 /* GameModel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		219AEC1C11890A3A00293338 /* GameModel */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC2011890A3A00293338 /* GameModel.h */,
+				219AEC2111890A3A00293338 /* GameModel.mm */,
+				219AEC2211890A3A00293338 /* GameModelIncludes.h */,
+				219AEC1D11890A3A00293338 /* GoFishGameModel.mm */,
+			);
+			name = GameModel;
+			sourceTree = "<group>";
+		};
+		219AEC1D11890A3A00293338 /* GoFishGameModel.mm */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC1E11890A3A00293338 /* GoFishGameModel.h */,
+				219AEC1F11890A3A00293338 /* GoFishGameModel.mm */,
+			);
+			name = GoFishGameModel.mm;
+			sourceTree = "<group>";
+		};
+		219AEC2311890A3A00293338 /* PlayerModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = PlayerModel;
+			sourceTree = "<group>";
+		};
+		219AEC2411890A3A00293338 /* GameObjectModel */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC2B11890A3B00293338 /* GameObjectModel.h */,
+				219AEC2C11890A3B00293338 /* GameObjectModel.mm */,
+				219AEC2811890A3B00293338 /* CardModel */,
+				219AEC2511890A3A00293338 /* HotSpotModel */,
+			);
+			name = GameObjectModel;
+			sourceTree = "<group>";
+		};
+		219AEC2511890A3A00293338 /* HotSpotModel */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC2611890A3A00293338 /* HotSpotModel.h */,
+				219AEC2711890A3B00293338 /* HotSpotModel.mm */,
+			);
+			name = HotSpotModel;
+			sourceTree = "<group>";
+		};
+		219AEC2811890A3B00293338 /* CardModel */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC2911890A3B00293338 /* CardModel.h */,
+				219AEC2A11890A3B00293338 /* CardModel.mm */,
+			);
+			name = CardModel;
+			sourceTree = "<group>";
+		};
+		219AEC2D11890A3B00293338 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC2E11890A3B00293338 /* GameObjectViews */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		219AEC2E11890A3B00293338 /* GameObjectViews */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC2F11890A3B00293338 /* GameObjectView.h */,
+				219AEC3011890A3B00293338 /* GameObjectView.mm */,
+			);
+			name = GameObjectViews;
+			sourceTree = "<group>";
+		};
+		219AEC3111890A3B00293338 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC911189FFFC00293338 /* StartViewController */,
+				219AEC3211890A3B00293338 /* GameViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		219AEC3211890A3B00293338 /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				219AEC3311890A3B00293338 /* GameViewController.h */,
+				219AEC3411890A3B00293338 /* GameViewController.mm */,
+				219AEC3511890A3B00293338 /* GameViewController.xib */,
+				219AEC3611890A3B00293338 /* SettingsPopoverController.h */,
+				219AEC3711890A3B00293338 /* SettingsPopoverController.mm */,
+			);
+			name = GameViewController;
+			sourceTree = "<group>";
+		};
+		219AEC911189FFFC00293338 /* StartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				219AECA5118A1BD500293338 /* StartDetailViewController.h */,
+				219AECA6118A1BD500293338 /* StartDetailViewController.mm */,
+				219AECAA118A1C0600293338 /* StartRootViewController.h */,
+				219AECAB118A1C0600293338 /* StartRootViewController.mm */,
+				219AECAD118A21FD00293338 /* StartViewController.h */,
+				219AECAE118A21FD00293338 /* StartViewController.mm */,
+			);
+			name = StartViewController;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CardShark_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28193054112F811F00ECF9B4 /* CardShark.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				216A36C9118A270200FEC238 /* DetailView.xib */,
+				8D1107310486CEB800E47090 /* CardShark-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+				219AEC4B11890A8800293338 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CardShark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CardShark" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardShark;
+			productName = CardShark;
+			productReference = 1D6058910D05DD3D006BFB54 /* CardShark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CardShark" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CardShark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				219AEC4211890A3B00293338 /* GameViewController.xib in Resources */,
+				216A36CA118A270200FEC238 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CardSharkAppDelegate.m in Sources */,
+				28193055112F811F00ECF9B4 /* CardShark.xcdatamodeld in Sources */,
+				219AEC3811890A3B00293338 /* GTMObjC2Runtime.m in Sources */,
+				219AEC3911890A3B00293338 /* GTMStackTrace.m in Sources */,
+				219AEC3A11890A3B00293338 /* AddOns.mm in Sources */,
+				219AEC3B11890A3B00293338 /* GoFishGameModel.mm in Sources */,
+				219AEC3C11890A3B00293338 /* GameModel.mm in Sources */,
+				219AEC3D11890A3B00293338 /* HotSpotModel.mm in Sources */,
+				219AEC3E11890A3B00293338 /* CardModel.mm in Sources */,
+				219AEC3F11890A3B00293338 /* GameObjectModel.mm in Sources */,
+				219AEC4011890A3B00293338 /* GameObjectView.mm in Sources */,
+				219AEC4111890A3B00293338 /* GameViewController.mm in Sources */,
+				219AEC4311890A3B00293338 /* SettingsPopoverController.mm in Sources */,
+				219AECA8118A1BD500293338 /* StartDetailViewController.mm in Sources */,
+				219AECAC118A1C0600293338 /* StartRootViewController.mm in Sources */,
+				219AECAF118A21FD00293338 /* StartViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CardShark_Prefix.pch;
+				INFOPLIST_FILE = "CardShark-Info.plist";
+				PRODUCT_NAME = CardShark;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CardShark_Prefix.pch;
+				INFOPLIST_FILE = "CardShark-Info.plist";
+				PRODUCT_NAME = CardShark;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CardShark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CardShark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28193054112F811F00ECF9B4 /* CardShark.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* CardShark.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* CardShark.xcdatamodel */;
+			path = CardShark.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
