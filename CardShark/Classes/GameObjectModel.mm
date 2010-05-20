@@ -11,6 +11,7 @@
 	For instance, this includes cards, hotspots, coins, etc
  */
 
+
 #import "GameObjectModel.h"
 
 @implementation GameObjectModel
