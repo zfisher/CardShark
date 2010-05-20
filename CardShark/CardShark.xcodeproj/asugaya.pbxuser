@@ -1,0 +1,127 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* CardShark */ = {
+		activeExec = 0;
+		executables = (
+			21A67E5711A4F9F8008E3B95 /* CardShark */,
+		);
+	};
+	21A67E5711A4F9F8008E3B95 /* CardShark */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CardShark;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	21A67E6C11A4FA0E008E3B95 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = cardshark;
+			};
+		};
+	};
+	21A67E6D11A4FA0E008E3B95 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	21A67E7511A506CB008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67E7611A506CB008E3B95 /* CKCard.m */;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+		rType = 0;
+	};
+	21A67E7611A506CB008E3B95 /* CKCard.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CKCard.m;
+		path = "/var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Tmp-/19542fd9c11d3bdd1432095ce857c653ddd12f17.wBhLqC/CKCard.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1594, 1144}}";
+			sepNavSelRange = "{288, 0}";
+			sepNavVisRange = "{236, 1271}";
+		};
+	};
+	21A67E7711A506CB008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67E7811A506CB008E3B95 /* CKCard.m */;
+		name = "CKCard.m: 17";
+		rLen = 0;
+		rLoc = 288;
+		rType = 0;
+		vrLen = 1271;
+		vrLoc = 236;
+	};
+	21A67E7811A506CB008E3B95 /* CKCard.m */ = {
+		isa = PBXFileReference;
+		name = CKCard.m;
+		path = "/var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Tmp-/19542fd9c11d3bdd1432095ce857c653ddd12f17.wBhLqC/CKCard.m";
+		sourceTree = "<absolute>";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 21A67E5711A4F9F8008E3B95 /* CardShark */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CardShark */;
+		codeSenseManager = 21A67E6D11A4FA0E008E3B95 /* Code sense */;
+		executables = (
+			21A67E5711A4F9F8008E3B95 /* CardShark */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					483,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 296024568;
+			PBXWorkspaceStateSaveDate = 296024568;
+		};
+		perUserProjectItems = {
+			21A67E7511A506CB008E3B95 /* PBXTextBookmark */ = 21A67E7511A506CB008E3B95 /* PBXTextBookmark */;
+			21A67E7711A506CB008E3B95 /* PBXTextBookmark */ = 21A67E7711A506CB008E3B95 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 21A67E6C11A4FA0E008E3B95 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
