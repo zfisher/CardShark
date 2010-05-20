@@ -1,0 +1,12 @@
+# XCode Stuff
+Products/*
+*build/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+# SVN Stuff
+.svn
+# OS Stuff
+*.DS_Store
+*profile

@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4A427D4B1167151200E453DD /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A427D581167158E00E453DD /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				4A427D501167151D00E453DD /* PBXTargetDependency */,
+				4A427D521167151F00E453DD /* PBXTargetDependency */,
+				4A427E1C11671B3800E453DD /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4A27386F1167221800A8D861 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADAC99C115FB6170085FAB4 /* QuartzCore.framework */; };
+		4A427E4711671C0A00E453DD /* libCardKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libCardKit.a */; };
+		4A427E8311671D0D00E453DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A427E4D11671C2F00E453DD /* AppDelegate.m */; };
+		4A427E9611671D6D00E453DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A427E9511671D6D00E453DD /* main.m */; };
+		4A427EB611671E1E00E453DD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A427EB511671E1E00E453DD /* MainWindow.xib */; };
+		4A427EBB11671E2F00E453DD /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A427EBA11671E2F00E453DD /* MainWindow-iPad.xib */; };
+		4A427ED611671FE000E453DD /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A427ED511671FE000E453DD /* Background.png */; };
+		4A427EDB1167207A00E453DD /* Reference1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A427EDA1167207A00E453DD /* Reference1.png */; };
+		4A427EF61167218E00E453DD /* CardKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A3A4818114DE643009CA6E3 /* CardKit.bundle */; };
+		4A568E6B118DF388004BC0FA /* CKDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A568E69118DF388004BC0FA /* CKDeck.h */; };
+		4A568E6C118DF388004BC0FA /* CKDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A568E6A118DF388004BC0FA /* CKDeck.m */; };
+		4A6D5E7E114C52330024133B /* CardKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6D5E7C114C52330024133B /* CardKit.h */; };
+		4A6D5E99114C52BB0024133B /* CKCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6D5E97114C52BB0024133B /* CKCard.h */; };
+		4A6D5E9A114C52BB0024133B /* CKCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D5E98114C52BB0024133B /* CKCard.m */; };
+		4A7288A411716A7600C76A7B /* ComparisonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7288A311716A7600C76A7B /* ComparisonView.xib */; };
+		4A728A231172C7CE00C76A7B /* CardKit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A728A211172C7CE00C76A7B /* CardKit.ttf */; };
+		4ADAC937115FADE30085FAB4 /* CKCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADAC935115FADE30085FAB4 /* CKCardView.h */; };
+		4ADAC938115FADE40085FAB4 /* CKCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADAC936115FADE30085FAB4 /* CKCardView.m */; };
+		4ADAC99D115FB6170085FAB4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ADAC99C115FB6170085FAB4 /* QuartzCore.framework */; };
+		4AE627101173D0AB005D30A6 /* FontLabelStringDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE627051173D0AB005D30A6 /* FontLabelStringDrawing.h */; };
+		4AE627111173D0AB005D30A6 /* FontLabelStringDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE627061173D0AB005D30A6 /* FontLabelStringDrawing.m */; };
+		4AE627121173D0AB005D30A6 /* FontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE627071173D0AB005D30A6 /* FontManager.h */; };
+		4AE627131173D0AB005D30A6 /* FontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE627081173D0AB005D30A6 /* FontManager.m */; };
+		4AE627141173D0AB005D30A6 /* ZAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE627091173D0AB005D30A6 /* ZAttributedString.h */; };
+		4AE627151173D0AB005D30A6 /* ZAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6270A1173D0AB005D30A6 /* ZAttributedString.m */; };
+		4AE627161173D0AB005D30A6 /* ZAttributedStringPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE6270B1173D0AB005D30A6 /* ZAttributedStringPrivate.h */; };
+		4AE627171173D0AB005D30A6 /* ZFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE6270C1173D0AB005D30A6 /* ZFont.h */; };
+		4AE627181173D0AB005D30A6 /* ZFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6270D1173D0AB005D30A6 /* ZFont.m */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3A4856114DE6AE009CA6E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3A4817114DE643009CA6E3;
+			remoteInfo = "CardKit Resources";
+		};
+		4A427D4F1167151D00E453DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CardKit;
+		};
+		4A427D511167151F00E453DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3A4817114DE643009CA6E3;
+			remoteInfo = Resources;
+		};
+		4A427E1B11671B3800E453DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A427E1411671B3100E453DD;
+			remoteInfo = Workbench;
+		};
+		4A427E1D11671B3D00E453DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CardKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3A4818114DE643009CA6E3 /* CardKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3A4819114DE643009CA6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = "<group>"; };
+		4A427E1511671B3100E453DD /* Workbench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workbench.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A427E1711671B3200E453DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Workbench/Info.plist; sourceTree = "<group>"; };
+		4A427E4C11671C2F00E453DD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Workbench/Classes/AppDelegate.h; sourceTree = "<group>"; };
+		4A427E4D11671C2F00E453DD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Workbench/Classes/AppDelegate.m; sourceTree = "<group>"; };
+		4A427E9511671D6D00E453DD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Workbench/Classes/main.m; sourceTree = "<group>"; };
+		4A427EB511671E1E00E453DD /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Workbench/Resources/MainWindow.xib; sourceTree = "<group>"; };
+		4A427EBA11671E2F00E453DD /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Workbench/Resources/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		4A427ED511671FE000E453DD /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = Workbench/Resources/Background.png; sourceTree = "<group>"; };
+		4A427EDA1167207A00E453DD /* Reference1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Reference1.png; path = Workbench/Resources/Reference1.png; sourceTree = "<group>"; };
+		4A568E69118DF388004BC0FA /* CKDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDeck.h; sourceTree = "<group>"; };
+		4A568E6A118DF388004BC0FA /* CKDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDeck.m; sourceTree = "<group>"; };
+		4A6D5E7C114C52330024133B /* CardKit.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CardKit.h; path = Library/CardKit.h; sourceTree = "<group>"; };
+		4A6D5E97114C52BB0024133B /* CKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCard.h; sourceTree = "<group>"; };
+		4A6D5E98114C52BB0024133B /* CKCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCard.m; sourceTree = "<group>"; };
+		4A7288A311716A7600C76A7B /* ComparisonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ComparisonView.xib; path = Workbench/Resources/ComparisonView.xib; sourceTree = "<group>"; };
+		4A728A211172C7CE00C76A7B /* CardKit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CardKit.ttf; path = Resources/Font/CardKit.ttf; sourceTree = "<group>"; };
+		4ADAC935115FADE30085FAB4 /* CKCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCardView.h; sourceTree = "<group>"; };
+		4ADAC936115FADE30085FAB4 /* CKCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCardView.m; sourceTree = "<group>"; };
+		4ADAC99C115FB6170085FAB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4AE627031173D0AB005D30A6 /* FontLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontLabel.h; path = "Third Party/FontLabel/FontLabel.h"; sourceTree = "<group>"; };
+		4AE627041173D0AB005D30A6 /* FontLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontLabel.m; path = "Third Party/FontLabel/FontLabel.m"; sourceTree = "<group>"; };
+		4AE627051173D0AB005D30A6 /* FontLabelStringDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontLabelStringDrawing.h; path = "Third Party/FontLabel/FontLabelStringDrawing.h"; sourceTree = "<group>"; };
+		4AE627061173D0AB005D30A6 /* FontLabelStringDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontLabelStringDrawing.m; path = "Third Party/FontLabel/FontLabelStringDrawing.m"; sourceTree = "<group>"; };
+		4AE627071173D0AB005D30A6 /* FontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FontManager.h; path = "Third Party/FontLabel/FontManager.h"; sourceTree = "<group>"; };
+		4AE627081173D0AB005D30A6 /* FontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FontManager.m; path = "Third Party/FontLabel/FontManager.m"; sourceTree = "<group>"; };
+		4AE627091173D0AB005D30A6 /* ZAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZAttributedString.h; path = "Third Party/FontLabel/ZAttributedString.h"; sourceTree = "<group>"; };
+		4AE6270A1173D0AB005D30A6 /* ZAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZAttributedString.m; path = "Third Party/FontLabel/ZAttributedString.m"; sourceTree = "<group>"; };
+		4AE6270B1173D0AB005D30A6 /* ZAttributedStringPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZAttributedStringPrivate.h; path = "Third Party/FontLabel/ZAttributedStringPrivate.h"; sourceTree = "<group>"; };
+		4AE6270C1173D0AB005D30A6 /* ZFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZFont.h; path = "Third Party/FontLabel/ZFont.h"; sourceTree = "<group>"; };
+		4AE6270D1173D0AB005D30A6 /* ZFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZFont.m; path = "Third Party/FontLabel/ZFont.m"; sourceTree = "<group>"; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libCardKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCardKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A427E1311671B3100E453DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A27386F1167221800A8D861 /* QuartzCore.framework in Frameworks */,
+				4A427E4711671C0A00E453DD /* libCardKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				4ADAC99D115FB6170085FAB4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libCardKit.a */,
+				4A3A4818114DE643009CA6E3 /* CardKit.bundle */,
+				4A427E1511671B3100E453DD /* Workbench.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CardKit */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Library */,
+				4A3A4821114DE65D009CA6E3 /* Resources */,
+				4A427E3511671B6400E453DD /* Workbench */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = CardKit;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ADAC99C115FB6170085FAB4 /* QuartzCore.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4A6D5E7C114C52330024133B /* CardKit.h */,
+				4A427DBC116719DD00E453DD /* Classes */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		4A3A4821114DE65D009CA6E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A728A1F1172C7C100C76A7B /* Font */,
+				4A3A4819114DE643009CA6E3 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A427DBC116719DD00E453DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4ADAC935115FADE30085FAB4 /* CKCardView.h */,
+				4ADAC936115FADE30085FAB4 /* CKCardView.m */,
+				4A6D5E97114C52BB0024133B /* CKCard.h */,
+				4A6D5E98114C52BB0024133B /* CKCard.m */,
+				4A568E69118DF388004BC0FA /* CKDeck.h */,
+				4A568E6A118DF388004BC0FA /* CKDeck.m */,
+				4AE626F51173D030005D30A6 /* Third Party */,
+			);
+			name = Classes;
+			path = Library/Classes;
+			sourceTree = "<group>";
+		};
+		4A427E3511671B6400E453DD /* Workbench */ = {
+			isa = PBXGroup;
+			children = (
+				4A427E4811671C1100E453DD /* Classes */,
+				4A427EB211671DE900E453DD /* Resources */,
+				4A427E1711671B3200E453DD /* Info.plist */,
+			);
+			name = Workbench;
+			sourceTree = "<group>";
+		};
+		4A427E4811671C1100E453DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A427E4C11671C2F00E453DD /* AppDelegate.h */,
+				4A427E4D11671C2F00E453DD /* AppDelegate.m */,
+				4A427E9511671D6D00E453DD /* main.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4A427EB211671DE900E453DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A427ED511671FE000E453DD /* Background.png */,
+				4A427EB511671E1E00E453DD /* MainWindow.xib */,
+				4A427EBA11671E2F00E453DD /* MainWindow-iPad.xib */,
+				4A427EDA1167207A00E453DD /* Reference1.png */,
+				4A7288A311716A7600C76A7B /* ComparisonView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A728A1F1172C7C100C76A7B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4A728A211172C7CE00C76A7B /* CardKit.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		4AE626F51173D030005D30A6 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				4AE626FF1173D09B005D30A6 /* FontLabel */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		4AE626FF1173D09B005D30A6 /* FontLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4AE627031173D0AB005D30A6 /* FontLabel.h */,
+				4AE627041173D0AB005D30A6 /* FontLabel.m */,
+				4AE627051173D0AB005D30A6 /* FontLabelStringDrawing.h */,
+				4AE627061173D0AB005D30A6 /* FontLabelStringDrawing.m */,
+				4AE627071173D0AB005D30A6 /* FontManager.h */,
+				4AE627081173D0AB005D30A6 /* FontManager.m */,
+				4AE627091173D0AB005D30A6 /* ZAttributedString.h */,
+				4AE6270A1173D0AB005D30A6 /* ZAttributedString.m */,
+				4AE6270B1173D0AB005D30A6 /* ZAttributedStringPrivate.h */,
+				4AE6270C1173D0AB005D30A6 /* ZFont.h */,
+				4AE6270D1173D0AB005D30A6 /* ZFont.m */,
+			);
+			name = FontLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6D5E7E114C52330024133B /* CardKit.h in Headers */,
+				4A6D5E99114C52BB0024133B /* CKCard.h in Headers */,
+				4ADAC937115FADE30085FAB4 /* CKCardView.h in Headers */,
+				4AE627101173D0AB005D30A6 /* FontLabelStringDrawing.h in Headers */,
+				4AE627121173D0AB005D30A6 /* FontManager.h in Headers */,
+				4AE627141173D0AB005D30A6 /* ZAttributedString.h in Headers */,
+				4AE627161173D0AB005D30A6 /* ZAttributedStringPrivate.h in Headers */,
+				4AE627171173D0AB005D30A6 /* ZFont.h in Headers */,
+				4A568E6B118DF388004BC0FA /* CKDeck.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A3A4817114DE643009CA6E3 /* Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3A481F114DE644009CA6E3 /* Build configuration list for PBXNativeTarget "Resources" */;
+			buildPhases = (
+				4A3A4814114DE643009CA6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resources;
+			productName = "CardKit Resources";
+			productReference = 4A3A4818114DE643009CA6E3 /* CardKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4A427E1411671B3100E453DD /* Workbench */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A427E1A11671B3200E453DD /* Build configuration list for PBXNativeTarget "Workbench" */;
+			buildPhases = (
+				4A427E1111671B3100E453DD /* Resources */,
+				4A427E1211671B3100E453DD /* Sources */,
+				4A427E1311671B3100E453DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A427E1E11671B3D00E453DD /* PBXTargetDependency */,
+			);
+			name = Workbench;
+			productName = Workbench;
+			productReference = 4A427E1511671B3100E453DD /* Workbench.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2AAC07D0554694100DB518D /* CardKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "CardKit" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3A4857114DE6AE009CA6E3 /* PBXTargetDependency */,
+			);
+			name = CardKit;
+			productName = CardKit;
+			productReference = D2AAC07E0554694100DB518D /* libCardKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CardKit" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* CardKit */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A427D4B1167151200E453DD /* All */,
+				D2AAC07D0554694100DB518D /* CardKit */,
+				4A3A4817114DE643009CA6E3 /* Resources */,
+				4A427E1411671B3100E453DD /* Workbench */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3A4814114DE643009CA6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A728A231172C7CE00C76A7B /* CardKit.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A427E1111671B3100E453DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A427EF61167218E00E453DD /* CardKit.bundle in Resources */,
+				4A427EB611671E1E00E453DD /* MainWindow.xib in Resources */,
+				4A427EBB11671E2F00E453DD /* MainWindow-iPad.xib in Resources */,
+				4A427ED611671FE000E453DD /* Background.png in Resources */,
+				4A427EDB1167207A00E453DD /* Reference1.png in Resources */,
+				4A7288A411716A7600C76A7B /* ComparisonView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A427E1211671B3100E453DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A427E8311671D0D00E453DD /* AppDelegate.m in Sources */,
+				4A427E9611671D6D00E453DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6D5E9A114C52BB0024133B /* CKCard.m in Sources */,
+				4ADAC938115FADE40085FAB4 /* CKCardView.m in Sources */,
+				4AE627111173D0AB005D30A6 /* FontLabelStringDrawing.m in Sources */,
+				4AE627131173D0AB005D30A6 /* FontManager.m in Sources */,
+				4AE627151173D0AB005D30A6 /* ZAttributedString.m in Sources */,
+				4AE627181173D0AB005D30A6 /* ZFont.m in Sources */,
+				4A568E6C118DF388004BC0FA /* CKDeck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3A4857114DE6AE009CA6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3A4817114DE643009CA6E3 /* Resources */;
+			targetProxy = 4A3A4856114DE6AE009CA6E3 /* PBXContainerItemProxy */;
+		};
+		4A427D501167151D00E453DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* CardKit */;
+			targetProxy = 4A427D4F1167151D00E453DD /* PBXContainerItemProxy */;
+		};
+		4A427D521167151F00E453DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3A4817114DE643009CA6E3 /* Resources */;
+			targetProxy = 4A427D511167151F00E453DD /* PBXContainerItemProxy */;
+		};
+		4A427E1C11671B3800E453DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A427E1411671B3100E453DD /* Workbench */;
+			targetProxy = 4A427E1B11671B3800E453DD /* PBXContainerItemProxy */;
+		};
+		4A427E1E11671B3D00E453DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* CardKit */;
+			targetProxy = 4A427E1D11671B3D00E453DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/CardKit.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = CardKit;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/CardKit.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = CardKit;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				SYMROOT = Products;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				SYMROOT = Products;
+			};
+			name = Release;
+		};
+		4A3A481A114DE644009CA6E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CardKit;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4A3A481B114DE644009CA6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CardKit;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4A427D4D1167151200E453DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		4A427D4E1167151200E453DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		4A427E1811671B3200E453DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				HEADER_SEARCH_PATHS = ".//**";
+				INFOPLIST_FILE = Workbench/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					UIKit,
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Workbench;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A427E1911671B3200E453DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				HEADER_SEARCH_PATHS = ".//**";
+				INFOPLIST_FILE = Workbench/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					UIKit,
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Workbench;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "CardKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "CardKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3A481F114DE644009CA6E3 /* Build configuration list for PBXNativeTarget "Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3A481A114DE644009CA6E3 /* Debug */,
+				4A3A481B114DE644009CA6E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A427D581167158E00E453DD /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A427D4D1167151200E453DD /* Debug */,
+				4A427D4E1167151200E453DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A427E1A11671B3200E453DD /* Build configuration list for PBXNativeTarget "Workbench" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A427E1811671B3200E453DD /* Debug */,
+				4A427E1911671B3200E453DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
