@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* CardSharkAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 442}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 442}}";
 			sepNavSelRange = "{216, 0}";
-			sepNavVisRange = "{88, 891}";
+			sepNavVisRange = "{140, 845}";
 		};
 	};
 	1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {845, 2184}}";
-			sepNavSelRange = "{706, 0}";
-			sepNavVisRange = "{314, 952}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 2171}}";
+			sepNavSelRange = "{285, 0}";
+			sepNavVisRange = "{286, 762}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* CardShark */ = {
@@ -25,7 +25,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */;
 		name = "CardSharkAppDelegate.m: 14";
 		rLen = 0;
-		rLoc = 291;
+		rLoc = 261;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 314;
@@ -35,7 +35,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */;
 		name = "CardSharkAppDelegate.m: 14";
 		rLen = 0;
-		rLoc = 291;
+		rLoc = 261;
 		rType = 0;
 		vrLen = 888;
 		vrLoc = 314;
@@ -101,7 +101,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */;
 		name = "CardSharkAppDelegate.m: 25";
 		rLen = 0;
-		rLoc = 706;
+		rLoc = 676;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 314;
@@ -222,7 +222,7 @@
 		fRef = 219AECAB118A1C0600293338 /* StartRootViewController.mm */;
 		name = "StartRootViewController.mm: 97";
 		rLen = 0;
-		rLoc = 2525;
+		rLoc = 2520;
 		rType = 0;
 		vrLen = 1078;
 		vrLoc = 1818;
@@ -301,52 +301,105 @@
 		};
 	};
 	219AEC1E11890A3A00293338 /* GoFishGameModel.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = GoFishGameModel.h;
+		path = /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GoFishGameModel.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 375}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
+			sepNavSelRange = "{170, 21}";
 			sepNavVisRange = "{0, 243}";
 		};
 	};
 	219AEC1F11890A3A00293338 /* GoFishGameModel.mm */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = GoFishGameModel.mm;
+		path = /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GoFishGameModel.mm;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 391}}";
-			sepNavSelRange = "{236, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 351}}";
+			sepNavSelRange = "{199, 180}";
 			sepNavVisRange = "{0, 384}";
 		};
 	};
 	219AEC2011890A3A00293338 /* GameModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 403}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 403}}";
 			sepNavSelRange = "{720, 0}";
-			sepNavVisRange = "{0, 726}";
+			sepNavVisRange = "{78, 648}";
 		};
 	};
 	219AEC2111890A3A00293338 /* GameModel.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {689, 559}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 598}}";
 			sepNavSelRange = "{477, 0}";
-			sepNavVisRange = "{133, 621}";
+			sepNavVisRange = "{299, 551}";
 		};
 	};
 	219AEC2211890A3A00293338 /* GameModelIncludes.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = GameModelIncludes.h;
+		path = /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModelIncludes.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 375}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
+			sepNavSelRange = "{159, 0}";
+			sepNavVisRange = "{0, 159}";
+		};
+	};
+	219AEC2911890A3B00293338 /* CardModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 390}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 187}";
+			sepNavVisRange = "{3, 516}";
 		};
 	};
 	219AEC2A11890A3B00293338 /* CardModel.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 375}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 357}";
 		};
 	};
 	219AEC2B11890A3B00293338 /* GameObjectModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {661, 232}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
+			sepNavSelRange = "{171, 0}";
 			sepNavVisRange = "{0, 221}";
+		};
+	};
+	219AEC2C11890A3B00293338 /* GameObjectModel.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {934, 533}}";
+			sepNavSelRange = "{297, 0}";
+			sepNavVisRange = "{0, 371}";
+		};
+	};
+	219AEC2F11890A3B00293338 /* GameObjectView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 219}";
+		};
+	};
+	219AEC3011890A3B00293338 /* GameObjectView.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 324}";
+		};
+	};
+	219AEC3411890A3B00293338 /* GameViewController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1183}}";
+			sepNavSelRange = "{1185, 0}";
+			sepNavVisRange = "{140, 1324}";
 		};
 	};
 	219AEC4411890A3B00293338 /* Source Control */ = {
@@ -365,35 +418,35 @@
 	};
 	219AECA5118A1BD500293338 /* StartDetailViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 375}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 338}}";
 			sepNavSelRange = "{589, 0}";
 			sepNavVisRange = "{0, 595}";
 		};
 	};
 	219AECA6118A1BD500293338 /* StartDetailViewController.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1510, 1560}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 1664}}";
 			sepNavSelRange = "{289, 0}";
-			sepNavVisRange = "{2442, 511}";
+			sepNavVisRange = "{2442, 505}";
 		};
 	};
 	219AECAA118A1C0600293338 /* StartRootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 375}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
 			sepNavSelRange = "{337, 0}";
 			sepNavVisRange = "{0, 431}";
 		};
 	};
 	219AECAB118A1C0600293338 /* StartRootViewController.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1055, 2379}}";
-			sepNavSelRange = "{2525, 0}";
-			sepNavVisRange = "{1818, 1078}";
+			sepNavIntBoundsRect = "{{0, 0}, {439, 2509}}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{0, 283}";
 		};
 	};
 	219AECAD118A21FD00293338 /* StartViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {594, 375}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
 			sepNavSelRange = "{520, 0}";
 			sepNavVisRange = "{0, 538}";
 		};
@@ -402,7 +455,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1146, 754}}";
 			sepNavSelRange = "{464, 0}";
-			sepNavVisRange = "{0, 780}";
+			sepNavVisRange = "{0, 732}";
 		};
 	};
 	219AECD3118A243F00293338 /* PBXTextBookmark */ = {
@@ -450,7 +503,7 @@
 		fRef = 219AECAB118A1C0600293338 /* StartRootViewController.mm */;
 		name = "StartRootViewController.mm: 140";
 		rLen = 0;
-		rLoc = 4226;
+		rLoc = 4221;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3262;
@@ -500,7 +553,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */;
 		name = "CardSharkAppDelegate.m: 14";
 		rLen = 0;
-		rLoc = 291;
+		rLoc = 261;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 136;
@@ -510,7 +563,7 @@
 		fRef = 1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */;
 		name = "CardSharkAppDelegate.m: 14";
 		rLen = 0;
-		rLoc = 291;
+		rLoc = 261;
 		rType = 0;
 		vrLen = 882;
 		vrLoc = 316;
@@ -524,6 +577,376 @@
 		rType = 0;
 		vrLen = 384;
 		vrLoc = 0;
+	};
+	21A67ED411A59AD3008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2C11890A3B00293338 /* GameObjectModel.mm */;
+		name = "GameObjectModel.mm: 11";
+		rLen = 0;
+		rLoc = 297;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 0;
+	};
+	21A67ED511A59AD3008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2B11890A3B00293338 /* GameObjectModel.h */;
+		name = "GameObjectModel.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 0;
+	};
+	21A67ED611A59AD3008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2B11890A3B00293338 /* GameObjectModel.h */;
+		name = "GameObjectModel.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 0;
+	};
+	21A67EDC11A624EB008E3B95 /* CardStackModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 247}}";
+			sepNavSelRange = "{195, 0}";
+			sepNavVisRange = "{41, 287}";
+		};
+	};
+	21A67EDD11A624EB008E3B95 /* CardStackModel.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 312}}";
+			sepNavSelRange = "{217, 0}";
+			sepNavVisRange = "{0, 255}";
+		};
+	};
+	21A67EE711A628E2008E3B95 /* BlackjackGameModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
+			sepNavSelRange = "{193, 0}";
+			sepNavVisRange = "{0, 248}";
+		};
+	};
+	21A67EE811A628E2008E3B95 /* BlackjackGameModel.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 364}}";
+			sepNavSelRange = "{295, 0}";
+			sepNavVisRange = "{29, 365}";
+		};
+	};
+	21A67EEA11A62CD5008E3B95 /* GameIncludes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {895, 334}}";
+			sepNavSelRange = "{161, 0}";
+			sepNavVisRange = "{0, 161}";
+		};
+	};
+	21A67EED11A62D86008E3B95 /* BlackjackIncludes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {895, 334}}";
+			sepNavSelRange = "{167, 0}";
+			sepNavVisRange = "{0, 167}";
+		};
+	};
+	21A67EFB11A62E08008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC3411890A3B00293338 /* GameViewController.mm */;
+		name = "GameViewController.mm: 10";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 0;
+	};
+	21A67EFC11A62E08008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AECAB118A1C0600293338 /* StartRootViewController.mm */;
+		name = "StartRootViewController.mm: 11";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	21A67EFD11A62E08008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67EDC11A624EB008E3B95 /* CardStackModel.h */;
+		name = "CardStackModel.h: 10";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 41;
+	};
+	21A67EFE11A62E08008E3B95 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Property 'cardStack' requires method '-cardStack' to be defined - use @synthesize, @dynamic or provide a method implementation";
+		fRef = 21A67EDD11A624EB008E3B95 /* CardStackModel.mm */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 25;
+		rType = 1;
+	};
+	21A67EFF11A62E08008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67EDD11A624EB008E3B95 /* CardStackModel.mm */;
+		name = "CardStackModel.mm: 13";
+		rLen = 0;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 255;
+		vrLoc = 0;
+	};
+	21A67F0011A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2B11890A3B00293338 /* GameObjectModel.h */;
+		name = "GameObjectModel.h: 11";
+		rLen = 0;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 221;
+		vrLoc = 0;
+	};
+	21A67F0111A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2A11890A3B00293338 /* CardModel.mm */;
+		name = "CardModel.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	21A67F0211A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2911890A3B00293338 /* CardModel.h */;
+		name = "CardModel.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 3;
+	};
+	21A67F0311A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67EDC11A624EB008E3B95 /* CardStackModel.h */;
+		name = "CardStackModel.h: 16";
+		rLen = 0;
+		rLoc = 321;
+		rType = 0;
+		vrLen = 301;
+		vrLoc = 0;
+	};
+	21A67F0411A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67EDD11A624EB008E3B95 /* CardStackModel.mm */;
+		name = "CardStackModel.mm: 22";
+		rLen = 0;
+		rLoc = 375;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	21A67F0511A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67EE811A628E2008E3B95 /* BlackjackGameModel.mm */;
+		name = "BlackjackGameModel.mm: 16";
+		rLen = 0;
+		rLoc = 295;
+		rType = 0;
+		vrLen = 365;
+		vrLoc = 29;
+	};
+	21A67F0611A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67EE711A628E2008E3B95 /* BlackjackGameModel.h */;
+		name = "BlackjackGameModel.h: 10";
+		rLen = 0;
+		rLoc = 193;
+		rType = 0;
+		vrLen = 248;
+		vrLoc = 0;
+	};
+	21A67F0711A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2011890A3A00293338 /* GameModel.h */;
+		name = "GameModel.h: 29";
+		rLen = 0;
+		rLoc = 720;
+		rType = 0;
+		vrLen = 648;
+		vrLoc = 78;
+	};
+	21A67F0811A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 25";
+		rLen = 0;
+		rLoc = 642;
+		rType = 0;
+		vrLen = 642;
+		vrLoc = 0;
+	};
+	21A67F0911A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* CardShark_Prefix.pch */;
+		name = "CardShark_Prefix.pch: 17";
+		rLen = 0;
+		rLoc = 405;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 0;
+	};
+	21A67F0A11A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2111890A3A00293338 /* GameModel.mm */;
+		name = "GameModel.mm: 23";
+		rLen = 0;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 299;
+	};
+	21A67F0B11A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CardSharkAppDelegate.m */;
+		name = "CardSharkAppDelegate.m: 15";
+		rLen = 0;
+		rLoc = 285;
+		rType = 0;
+		vrLen = 762;
+		vrLoc = 286;
+	};
+	21A67F0C11A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC3011890A3B00293338 /* GameObjectView.mm */;
+		name = "GameObjectView.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	21A67F0D11A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC2F11890A3B00293338 /* GameObjectView.h */;
+		name = "GameObjectView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 219;
+		vrLoc = 0;
+	};
+	21A67F0E11A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CardSharkAppDelegate.h */;
+		name = "CardSharkAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 140;
+	};
+	21A67F0F11A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AECA5118A1BD500293338 /* StartDetailViewController.h */;
+		name = "StartDetailViewController.h: 24";
+		rLen = 0;
+		rLoc = 589;
+		rType = 0;
+		vrLen = 595;
+		vrLoc = 0;
+	};
+	21A67F1011A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AECA6118A1BD500293338 /* StartDetailViewController.mm */;
+		name = "StartDetailViewController.mm: 13";
+		rLen = 0;
+		rLoc = 289;
+		rType = 0;
+		vrLen = 505;
+		vrLoc = 2442;
+	};
+	21A67F1111A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AECAA118A1C0600293338 /* StartRootViewController.h */;
+		name = "StartRootViewController.h: 15";
+		rLen = 0;
+		rLoc = 337;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 0;
+	};
+	21A67F1211A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AECAE118A21FD00293338 /* StartViewController.mm */;
+		name = "StartViewController.mm: 17";
+		rLen = 0;
+		rLoc = 464;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 0;
+	};
+	21A67F1311A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AECAD118A21FD00293338 /* StartViewController.h */;
+		name = "StartViewController.h: 17";
+		rLen = 0;
+		rLoc = 520;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 0;
+	};
+	21A67F1411A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AECAB118A1C0600293338 /* StartRootViewController.mm */;
+		name = "StartRootViewController.mm: 24";
+		rLen = 0;
+		rLoc = 493;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 292;
+	};
+	21A67F1511A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67EED11A62D86008E3B95 /* BlackjackIncludes.h */;
+		name = "BlackjackIncludes.h: 9";
+		rLen = 0;
+		rLoc = 167;
+		rType = 0;
+		vrLen = 167;
+		vrLoc = 0;
+	};
+	21A67F1611A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 21A67EEA11A62CD5008E3B95 /* GameIncludes.h */;
+		name = "GameIncludes.h: 9";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 0;
+	};
+	21A67F1711A63148008E3B95 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "GameModelIncludes.h: No such file or directory";
+		fRef = 219AEC3411890A3B00293338 /* GameViewController.mm */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	21A67F1811A63148008E3B95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 219AEC3411890A3B00293338 /* GameViewController.mm */;
+		name = "GameViewController.mm: 29";
+		rLen = 0;
+		rLoc = 1185;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 140;
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -542,7 +965,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					416,
+					717,
 					20,
 					48,
 					43,
@@ -600,6 +1023,39 @@
 			219AECF8118A258900293338 = 219AECF8118A258900293338 /* PBXTextBookmark */;
 			219AED02118A25BD00293338 = 219AED02118A25BD00293338 /* PBXTextBookmark */;
 			21A67EA511A59612008E3B95 = 21A67EA511A59612008E3B95 /* PBXTextBookmark */;
+			21A67ED411A59AD3008E3B95 /* PBXTextBookmark */ = 21A67ED411A59AD3008E3B95 /* PBXTextBookmark */;
+			21A67ED511A59AD3008E3B95 /* PBXTextBookmark */ = 21A67ED511A59AD3008E3B95 /* PBXTextBookmark */;
+			21A67ED611A59AD3008E3B95 /* PBXTextBookmark */ = 21A67ED611A59AD3008E3B95 /* PBXTextBookmark */;
+			21A67EFB11A62E08008E3B95 /* PBXTextBookmark */ = 21A67EFB11A62E08008E3B95 /* PBXTextBookmark */;
+			21A67EFC11A62E08008E3B95 /* PBXTextBookmark */ = 21A67EFC11A62E08008E3B95 /* PBXTextBookmark */;
+			21A67EFD11A62E08008E3B95 /* PBXTextBookmark */ = 21A67EFD11A62E08008E3B95 /* PBXTextBookmark */;
+			21A67EFE11A62E08008E3B95 /* XCBuildMessageTextBookmark */ = 21A67EFE11A62E08008E3B95 /* XCBuildMessageTextBookmark */;
+			21A67EFF11A62E08008E3B95 /* PBXTextBookmark */ = 21A67EFF11A62E08008E3B95 /* PBXTextBookmark */;
+			21A67F0011A63148008E3B95 /* PBXTextBookmark */ = 21A67F0011A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0111A63148008E3B95 /* PBXTextBookmark */ = 21A67F0111A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0211A63148008E3B95 /* PBXTextBookmark */ = 21A67F0211A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0311A63148008E3B95 /* PBXTextBookmark */ = 21A67F0311A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0411A63148008E3B95 /* PBXTextBookmark */ = 21A67F0411A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0511A63148008E3B95 /* PBXTextBookmark */ = 21A67F0511A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0611A63148008E3B95 /* PBXTextBookmark */ = 21A67F0611A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0711A63148008E3B95 /* PBXTextBookmark */ = 21A67F0711A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0811A63148008E3B95 /* PBXTextBookmark */ = 21A67F0811A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0911A63148008E3B95 /* PBXTextBookmark */ = 21A67F0911A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0A11A63148008E3B95 /* PBXTextBookmark */ = 21A67F0A11A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0B11A63148008E3B95 /* PBXTextBookmark */ = 21A67F0B11A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0C11A63148008E3B95 /* PBXTextBookmark */ = 21A67F0C11A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0D11A63148008E3B95 /* PBXTextBookmark */ = 21A67F0D11A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0E11A63148008E3B95 /* PBXTextBookmark */ = 21A67F0E11A63148008E3B95 /* PBXTextBookmark */;
+			21A67F0F11A63148008E3B95 /* PBXTextBookmark */ = 21A67F0F11A63148008E3B95 /* PBXTextBookmark */;
+			21A67F1011A63148008E3B95 /* PBXTextBookmark */ = 21A67F1011A63148008E3B95 /* PBXTextBookmark */;
+			21A67F1111A63148008E3B95 /* PBXTextBookmark */ = 21A67F1111A63148008E3B95 /* PBXTextBookmark */;
+			21A67F1211A63148008E3B95 /* PBXTextBookmark */ = 21A67F1211A63148008E3B95 /* PBXTextBookmark */;
+			21A67F1311A63148008E3B95 /* PBXTextBookmark */ = 21A67F1311A63148008E3B95 /* PBXTextBookmark */;
+			21A67F1411A63148008E3B95 /* PBXTextBookmark */ = 21A67F1411A63148008E3B95 /* PBXTextBookmark */;
+			21A67F1511A63148008E3B95 /* PBXTextBookmark */ = 21A67F1511A63148008E3B95 /* PBXTextBookmark */;
+			21A67F1611A63148008E3B95 /* PBXTextBookmark */ = 21A67F1611A63148008E3B95 /* PBXTextBookmark */;
+			21A67F1711A63148008E3B95 /* XCBuildMessageTextBookmark */ = 21A67F1711A63148008E3B95 /* XCBuildMessageTextBookmark */;
+			21A67F1811A63148008E3B95 /* PBXTextBookmark */ = 21A67F1811A63148008E3B95 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 219AEC4411890A3B00293338 /* Source Control */;
 		userBuildSettings = {
@@ -607,14 +1063,14 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {873, 333}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
 			sepNavSelRange = "{642, 0}";
 			sepNavVisRange = "{0, 642}";
 		};
 	};
 	32CA4F630368D1EE00C91783 /* CardShark_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {642, 398}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 334}}";
 			sepNavSelRange = "{405, 0}";
 			sepNavVisRange = "{0, 414}";
 		};

@@ -9,7 +9,6 @@
 	This class should be subclassed. This is the model for 
 	physical objects that are found in the game
 	For instance, this includes cards, hotspots, coins, etc
- lalala test git
  */
 
 

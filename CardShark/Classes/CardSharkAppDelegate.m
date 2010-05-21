@@ -8,7 +8,6 @@
 
 #import "CardSharkAppDelegate.h"
 #import "StartViewController.h"
-#import "GameModelIncludes.h"
 @implementation CardSharkAppDelegate
 
 @synthesize window, startViewController;

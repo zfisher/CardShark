@@ -7,7 +7,7 @@
 //
 
 #import "GameViewController.h"
-#import "GameModelIncludes.h"
+#import "GameModel.h"
 #import "SettingsPopoverController.h"
 @implementation GameViewController
 @synthesize currentGameModel;
@@ -26,7 +26,7 @@
 		settingsButton.layer.anchorPoint = CGPointMake(0.5, 0.5);
 		settingsButton.frame = CGRectMake(self.view.frame.size.width/2.0-100, 15, 200, 30);
 		settingsButton.titleLabel.textAlignment = UITextAlignmentCenter;
-		[settingsButton setTitle:@"CardGenius" forState:UIControlStateNormal];
+		[settingsButton setTitle:@"CardShark" forState:UIControlStateNormal];
 		settingsButton.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:20.0];
 		[self.view addSubview:settingsButton];
 		[settingsButton addTarget:self action:@selector(showSettings) forControlEvents:UIControlEventTouchUpInside];

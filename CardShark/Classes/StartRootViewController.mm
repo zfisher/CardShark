@@ -8,7 +8,8 @@
 
 #import "StartRootViewController.h"
 #import "StartDetailViewController.h"
-#import "GameModelIncludes.h"
+#import "GameModel.h"
+
 
 @implementation StartRootViewController
 
@@ -21,7 +22,7 @@
 -(id)initWithCoder:(NSCoder *)aDecoder{
 	if(self = [super initWithCoder:aDecoder]){
 		gameModels = [[NSMutableArray alloc] init];
-		[gameModels addObject:[[[GoFishGameModel alloc] init] autorelease]];
+		//[gameModels addObject:[[[GoFishGameModel alloc] init] autorelease]];
 	}
 	return self;
 }
