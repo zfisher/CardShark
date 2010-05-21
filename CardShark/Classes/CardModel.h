@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "GameObjectModel.h"
+#import "PlayerModel.h"
 
 //This is like, the stereotypical hello-world of enums. :P
 typedef enum Suit{
@@ -20,10 +21,11 @@ typedef enum Suit{
 @interface CardModel : GameObjectModel {
 	int denomination;
 	Suit suit;
+	PlayerModel *owner;//Or null if owned by table
 }
 -(id)initWithDenomination:(int)denom andSuit:(Suit)suit;
 
 @property (readonly) int denomination;
 @property (readonly) Suit suit;
-
+@property (retain) PlayerModel *owner;
 @end

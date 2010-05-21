@@ -11,12 +11,19 @@
 
 @implementation CardModel
 @synthesize suit, denomination;
+@synthesize owner;
+
 -(id)initWithDenomination:(int)denom andSuit:(Suit)s{
 	if(self = [super init]){
 		denomination = denom;
 		suit = suit;
+		owner = nil;//Owned by table
 	}
 	return self;
 }
 
+-(void)dealloc{
+	[owner release];
+	[super dealloc];
+}
 @end

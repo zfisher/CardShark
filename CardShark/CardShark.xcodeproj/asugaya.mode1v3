@@ -274,6 +274,7 @@
 								<string>219AEC2411890A3A00293338</string>
 								<string>21A67EDB11A624CD008E3B95</string>
 								<string>219AEC2811890A3B00293338</string>
+								<string>219AEC2311890A3A00293338</string>
 								<string>219AEC1C11890A3A00293338</string>
 								<string>219AEC2D11890A3B00293338</string>
 								<string>219AEC3111890A3B00293338</string>
@@ -285,14 +286,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>2</integer>
+									<integer>27</integer>
+									<integer>25</integer>
+									<integer>11</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 418}, {229, 404}}</string>
+							<string>{{0, 0}, {229, 583}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -304,14 +306,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {246, 422}}</string>
+						<string>{{0, 0}, {246, 601}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>229</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>244 415 1207 463 0 0 1440 878 </string>
+						<string>-3 236 1006 642 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -329,7 +331,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GameViewController.mm</string>
+								<string>GameModel.mm</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -337,38 +339,40 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GameViewController.mm</string>
+										<string>GameModel.mm</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>21A67F1811A63148008E3B95</string>
+										<string>21A67F4611A6E5DE008E3B95</string>
 										<key>history</key>
 										<array>
-											<string>21A67ED411A59AD3008E3B95</string>
-											<string>21A67F0011A63148008E3B95</string>
-											<string>21A67F0111A63148008E3B95</string>
-											<string>21A67F0211A63148008E3B95</string>
-											<string>21A67F0311A63148008E3B95</string>
-											<string>21A67F0411A63148008E3B95</string>
-											<string>21A67F0511A63148008E3B95</string>
-											<string>21A67F0611A63148008E3B95</string>
-											<string>21A67F0711A63148008E3B95</string>
 											<string>21A67F0811A63148008E3B95</string>
 											<string>21A67F0911A63148008E3B95</string>
-											<string>21A67F0A11A63148008E3B95</string>
 											<string>21A67F0B11A63148008E3B95</string>
 											<string>21A67F0C11A63148008E3B95</string>
 											<string>21A67F0D11A63148008E3B95</string>
 											<string>21A67F0E11A63148008E3B95</string>
 											<string>21A67F0F11A63148008E3B95</string>
-											<string>21A67F1011A63148008E3B95</string>
 											<string>21A67F1111A63148008E3B95</string>
 											<string>21A67F1211A63148008E3B95</string>
 											<string>21A67F1311A63148008E3B95</string>
 											<string>21A67F1411A63148008E3B95</string>
 											<string>21A67F1511A63148008E3B95</string>
-											<string>21A67F1611A63148008E3B95</string>
-											<string>21A67F1711A63148008E3B95</string>
+											<string>21A67F2011A640A5008E3B95</string>
+											<string>21A67F2111A640A5008E3B95</string>
+											<string>21A67F2211A640A5008E3B95</string>
+											<string>21A67F2411A640A5008E3B95</string>
+											<string>21A67F2511A640A5008E3B95</string>
+											<string>21A67F2611A640A5008E3B95</string>
+											<string>21A67F2711A640A5008E3B95</string>
+											<string>21A67F2911A640A5008E3B95</string>
+											<string>21A67F2A11A640A5008E3B95</string>
+											<string>21A67F4011A6E5DE008E3B95</string>
+											<string>21A67F4111A6E5DE008E3B95</string>
+											<string>21A67F4211A6E5DE008E3B95</string>
+											<string>21A67F4311A6E5DE008E3B95</string>
+											<string>21A67F4411A6E5DE008E3B95</string>
+											<string>21A67F4511A6E5DE008E3B95</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -380,14 +384,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {956, 366}}</string>
+								<string>{{0, 0}, {755, 507}}</string>
 								<key>RubberWindowFrame</key>
-								<string>244 415 1207 463 0 0 1440 878 </string>
+								<string>-3 236 1006 642 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>366pt</string>
+							<string>507pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -400,18 +404,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 371}, {956, 51}}</string>
+								<string>{{0, 512}, {755, 89}}</string>
 								<key>RubberWindowFrame</key>
-								<string>244 415 1207 463 0 0 1440 878 </string>
+								<string>-3 236 1006 642 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>51pt</string>
+							<string>89pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>956pt</string>
+					<string>755pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -570,7 +574,7 @@
 		<string>/Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>244 415 1207 463 0 0 1440 878 </string>
+	<string>-3 236 1006 642 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

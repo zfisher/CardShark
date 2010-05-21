@@ -13,7 +13,7 @@
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
 	[window addSubview:viewController.view];
 	[window makeKeyAndVisible];
-	[CKDeck standardDeck];
+	//[CKDeck standardDeck];
 }
 - (void)dealloc {
 	[viewController release];
