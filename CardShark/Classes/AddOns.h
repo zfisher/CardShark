@@ -9,6 +9,12 @@
 #import <Foundation/Foundation.h>
 #define ARC4RANDOM_MAX      0x100000000LL
 
+
+@interface NSMutableArray (Shuffle)
+- (void)shuffle;
+@end
+
+
 @interface UIImageView (Reflection)
 -(UIImage*)reflectImageWithHeight:(NSUInteger)height;
 

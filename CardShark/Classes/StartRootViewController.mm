@@ -9,6 +9,7 @@
 #import "StartRootViewController.h"
 #import "StartDetailViewController.h"
 #import "GameModel.h"
+#import "GameIncludes.h"
 
 
 @implementation StartRootViewController
@@ -22,7 +23,7 @@
 -(id)initWithCoder:(NSCoder *)aDecoder{
 	if(self = [super initWithCoder:aDecoder]){
 		gameModels = [[NSMutableArray alloc] init];
-		//[gameModels addObject:[[[GoFishGameModel alloc] init] autorelease]];
+		[gameModels addObject:[[[BlackjackGameModel alloc] init] autorelease]];
 	}
 	return self;
 }
@@ -154,7 +155,8 @@
     /*
      When a row is selected, set the detail view controller's detail item to the item associated with the selected row.
      */
-    detailController.detailItem = [NSString stringWithFormat:@"Row %d", indexPath.row];
+    detailController.detailItem = ((GameModel*)[gameModels safeObjectAtIndex:indexPath.row]);
+	
 }
 
 

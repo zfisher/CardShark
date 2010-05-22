@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class GameViewController;
 
 @interface StartDetailViewController : UIViewController <UIPopoverControllerDelegate, UISplitViewControllerDelegate> {
     
@@ -15,11 +15,14 @@
     UINavigationBar *navigationBar;
     
     id detailItem;
+	
+	GameViewController *gameController;
 }
+-(void)startGame;
 
 @property (nonatomic, retain) UIPopoverController *popoverController;
 @property (nonatomic, retain) IBOutlet UINavigationBar *navigationBar;
-
+@property (nonatomic, retain) IBOutlet GameViewController *gameController;
 @property (nonatomic, retain) id detailItem;
 
 @end

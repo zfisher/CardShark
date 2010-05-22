@@ -46,18 +46,34 @@
 }
 -(void)initDeck{
 	//Should be subclassed, but call this superclass. Initialize the deck.
-	[deck removeAllObjects];
+	[deck clearStack];
 }
 
--(void)runGame{
-	//Should be subclassed.
+-(BOOL)gameEnded{
+	//Should be subclassed. Return YES if the game has met end conditions
+	//like uno (person has no more cards); hearts (all players have no more cards
+	//blackjack (everybody except for one person has 0 points)
+	return NO;
+}
+-(void)startGame{
+	//Should be subclassed. Start the game
 }
 -(void)endGame{
 	//Should be subclassed. End the game.
 	
 }
+-(void)startRound{
+		//Sould be subclassed. Start the round
+}
+-(void)endRound{
+	//Should be subclassed. End the round
+}
 -(void)card:(CardModel*)card placedOnStack:(CardStackModel*)stack{
-	
+	//Should probably be subclassed
+}
+
+-(NSString*)description{
+	return gameName;
 }
 
 -(void)dealloc{

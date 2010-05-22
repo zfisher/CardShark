@@ -8,51 +8,66 @@
 
 #import "GameViewController.h"
 #import "GameModel.h"
-#import "SettingsPopoverController.h"
+#import "OptionsController.h"
+
+GameViewController *masterGameViewController;
+
 @implementation GameViewController
 @synthesize currentGameModel;
 
+
++(GameViewController*)getMaster{
+	if(!masterGameViewController){
+		[[GameViewController alloc] initWithNibName:@"GameViewController" bundle:nil];
+	}
+	return masterGameViewController;
+}
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
         // Custom initialization
-		settingsPopoverController = [[SettingsPopoverController alloc] init];
-		settingsPopoverController.delegate = self;
+		optionsController = [[OptionsController alloc] init];
+		optionsController.delegate = self;
 		
-		settingsPopover = [[UIPopoverController alloc] initWithContentViewController:settingsPopoverController];
+		optionsPopover = [[UIPopoverController alloc] initWithContentViewController:optionsController];
 		
-		settingsButton = [[UIButton alloc] init];
-		settingsButton.layer.anchorPoint = CGPointMake(0.5, 0.5);
-		settingsButton.frame = CGRectMake(self.view.frame.size.width/2.0-100, 15, 200, 30);
-		settingsButton.titleLabel.textAlignment = UITextAlignmentCenter;
-		[settingsButton setTitle:@"CardShark" forState:UIControlStateNormal];
-		settingsButton.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:20.0];
-		[self.view addSubview:settingsButton];
-		[settingsButton addTarget:self action:@selector(showSettings) forControlEvents:UIControlEventTouchUpInside];
+		optionsButton = [[UIButton alloc] init];
+		optionsButton.layer.anchorPoint = CGPointMake(0.5, 0.5);
+		optionsButton.frame = CGRectMake(self.view.frame.size.width/2.0-100, 15, 200, 30);
+		optionsButton.titleLabel.textAlignment = UITextAlignmentCenter;
+		[optionsButton setTitle:@"CardShark" forState:UIControlStateNormal];
+		optionsButton.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:20.0];
+		[self.view addSubview:optionsButton];
+		[optionsButton addTarget:self action:@selector(showOptions) forControlEvents:UIControlEventTouchUpInside];
 		
-		
+		masterGameViewController = self;
 		
 		
     }
     return self;
 }
--(void)showSettings{
-	[settingsPopover presentPopoverFromRect:settingsButton.frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
+
+-(void)showOptions{
+	[optionsPopover presentPopoverFromRect:optionsButton.frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
 }
--(void)hideSettings{
-	[settingsPopover dismissPopoverAnimated:YES];
+
+-(void)hideOptions{
+	[optionsPopover dismissPopoverAnimated:YES];
 }
+
 -(void)setCurrentGameModel:(GameModel *)cgm{
-	
+	//printf("Game Model Set\n");
 	[cgm retain];
 	[currentGameModel release];
 	currentGameModel = cgm;
-	settingsPopoverController.numberOfPlayersSlider.minimumValue = currentGameModel.minNumberOfPlayers;
-	settingsPopoverController.numberOfPlayersSlider.maximumValue = currentGameModel.maxNumberOfPlayers;
 	currentGameModel.delegate = self;
-	[settingsPopoverController updateNumberOfPlayersLabel];
-	[self showSettings];
+	//[optionsButton setTitle:[NSString stringWithFormat:@"CardShark\n%@", cgm.gameName] forState:UIControlStateNormal];
+	
+	//[self showOptions];
+	
+	[cgm initGame];
+	
 	
 }	
 
@@ -64,9 +79,7 @@
 */
 
 -(void)startGame{
-	currentGameModel.numberOfPlayers = settingsPopoverController.numberOfPlayersSlider.value;
-	[currentGameModel initGame];
-	[self hideSettings];
+	[self hideOptions];
 }
 
 
@@ -92,8 +105,9 @@
 
 
 - (void)dealloc {
-	[settingsPopover release];
-	[settingsButton release];
+	[optionsController release];
+	[optionsPopover release];
+	[optionsButton release];
 	[currentGameModel release];
     [super dealloc];
 }

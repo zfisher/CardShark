@@ -19,7 +19,7 @@
 	int numberOfPlayers;
 	int minNumberOfPlayers, maxNumberOfPlayers;
 	NSMutableArray *players;
-	NSMutableArray *deck;
+	CardStackModel *deck;
 	NSMutableArray *hotSpots;
 	
 	NSString *gameName;
@@ -27,8 +27,10 @@
 -(void)initGame;
 -(void)initPlayers;
 -(void)initDeck;
--(void)runGame;
+-(void)startGame;
 -(void)endGame;
+-(void)startRound;
+-(void)endRound;
 -(void)card:(CardModel*)card placedOnStack:(CardStackModel*)stack;
 @property (readonly) int minNumberOfPlayers, maxNumberOfPlayers;
 @property (assign) int numberOfPlayers;

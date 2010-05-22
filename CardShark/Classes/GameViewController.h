@@ -12,17 +12,19 @@
 
 #import <UIKit/UIKit.h>
 @class GameModel;
-@class SettingsPopoverController;
+@class OptionsController;
 @interface GameViewController : UIViewController <UIPopoverControllerDelegate>  {
 	GameModel *currentGameModel;
 	
-	UIPopoverController *settingsPopover;
-	SettingsPopoverController *settingsPopoverController;
-	UIButton *settingsButton;
+	UIPopoverController *optionsPopover;
+	OptionsController *optionsController;
+	//SettingsPopoverController *settingsPopoverController;
+	UIButton *optionsButton;
 	
 }
--(void)showSettings;
--(void)hideSettings;
++(GameViewController*)getMaster;
+-(void)showOptions;
+-(void)hideOptions;
 -(void)startGame;
 
 @property (retain, nonatomic) GameModel *currentGameModel;

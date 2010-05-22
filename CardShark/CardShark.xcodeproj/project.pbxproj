@@ -29,6 +29,9 @@
 		21A67EDE11A624EB008E3B95 /* CardStackModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21A67EDD11A624EB008E3B95 /* CardStackModel.mm */; };
 		21A67EE911A628E2008E3B95 /* BlackjackGameModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21A67EE811A628E2008E3B95 /* BlackjackGameModel.mm */; };
 		21A67F1B11A63CCA008E3B95 /* PlayerModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21A67F1A11A63CCA008E3B95 /* PlayerModel.mm */; };
+		21A67FB111A6F588008E3B95 /* OptionsController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21A67FAF11A6F588008E3B95 /* OptionsController.mm */; };
+		21A6803E11A73448008E3B95 /* BlackjackPlayerModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21A6803D11A73448008E3B95 /* BlackjackPlayerModel.mm */; };
+		21A6808B11A826CD008E3B95 /* HotSpotModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21A6808A11A826CD008E3B95 /* HotSpotModel.mm */; };
 		28193055112F811F00ECF9B4 /* CardShark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28193054112F811F00ECF9B4 /* CardShark.xcdatamodeld */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
@@ -78,6 +81,12 @@
 		21A67EED11A62D86008E3B95 /* BlackjackIncludes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackjackIncludes.h; sourceTree = "<group>"; };
 		21A67F1911A63CCA008E3B95 /* PlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerModel.h; sourceTree = "<group>"; };
 		21A67F1A11A63CCA008E3B95 /* PlayerModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlayerModel.mm; sourceTree = "<group>"; };
+		21A67FAE11A6F588008E3B95 /* OptionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsController.h; sourceTree = "<group>"; };
+		21A67FAF11A6F588008E3B95 /* OptionsController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OptionsController.mm; sourceTree = "<group>"; };
+		21A6803C11A73448008E3B95 /* BlackjackPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackjackPlayerModel.h; sourceTree = "<group>"; };
+		21A6803D11A73448008E3B95 /* BlackjackPlayerModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BlackjackPlayerModel.mm; sourceTree = "<group>"; };
+		21A6808911A826CD008E3B95 /* HotSpotModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSpotModel.h; sourceTree = "<group>"; };
+		21A6808A11A826CD008E3B95 /* HotSpotModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HotSpotModel.mm; sourceTree = "<group>"; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28C3AD890F43EF2300507BA6 /* CardShark.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CardShark.xcdatamodel; sourceTree = "<group>"; };
@@ -181,6 +190,7 @@
 			children = (
 				219AEC2B11890A3B00293338 /* GameObjectModel.h */,
 				219AEC2C11890A3B00293338 /* GameObjectModel.mm */,
+				21A6808811A826C0008E3B95 /* HotSpotModel */,
 				21A67EDB11A624CD008E3B95 /* CardStackModel */,
 				219AEC2811890A3B00293338 /* CardModel */,
 			);
@@ -230,6 +240,8 @@
 				219AEC3511890A3B00293338 /* GameViewController.xib */,
 				219AEC3611890A3B00293338 /* SettingsPopoverController.h */,
 				219AEC3711890A3B00293338 /* SettingsPopoverController.mm */,
+				21A67FAE11A6F588008E3B95 /* OptionsController.h */,
+				21A67FAF11A6F588008E3B95 /* OptionsController.mm */,
 			);
 			name = GameViewController;
 			sourceTree = "<group>";
@@ -281,6 +293,8 @@
 			children = (
 				21A67EE711A628E2008E3B95 /* BlackjackGameModel.h */,
 				21A67EE811A628E2008E3B95 /* BlackjackGameModel.mm */,
+				21A6803C11A73448008E3B95 /* BlackjackPlayerModel.h */,
+				21A6803D11A73448008E3B95 /* BlackjackPlayerModel.mm */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -297,6 +311,15 @@
 			children = (
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		21A6808811A826C0008E3B95 /* HotSpotModel */ = {
+			isa = PBXGroup;
+			children = (
+				21A6808911A826CD008E3B95 /* HotSpotModel.h */,
+				21A6808A11A826CD008E3B95 /* HotSpotModel.mm */,
+			);
+			name = HotSpotModel;
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
@@ -416,6 +439,9 @@
 				21A67EDE11A624EB008E3B95 /* CardStackModel.mm in Sources */,
 				21A67EE911A628E2008E3B95 /* BlackjackGameModel.mm in Sources */,
 				21A67F1B11A63CCA008E3B95 /* PlayerModel.mm in Sources */,
+				21A67FB111A6F588008E3B95 /* OptionsController.mm in Sources */,
+				21A6803E11A73448008E3B95 /* BlackjackPlayerModel.mm in Sources */,
+				21A6808B11A826CD008E3B95 /* HotSpotModel.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

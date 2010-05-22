@@ -1,7 +1,7 @@
 TCardShark
 v7
 r0
-t296151791.930295
+t296233551.219409
 cCheck dependencies
 cProcessInfoPlistFile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/Info.plist CardShark-Info.plist
 cCompileXIB /Users/asugaya/Documents/Projects/git/CardShark/CardShark/MainWindow.xib
@@ -16,7 +16,6 @@ cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-no
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMStackTrace.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMStackTrace.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/AddOns.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/HotSpotModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectView.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
@@ -28,6 +27,9 @@ cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-no
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardStackModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackGameModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/PlayerModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/OptionsController.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackPlayerModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/HotSpotModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cLd /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark normal i386
 cGenerateDSYMFile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app.dSYM /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark
 cTouch /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app
@@ -152,6 +154,11 @@ c000000004748A1330000000000001731
 t1195942195
 s5937
 
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Background.png
+c000000004BF4C99200000000002733FB
+t1274333586
+s2569211
+
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark.xcdatamodeld
 c000000004BD8D2A80000000000000088
 t1272500904
@@ -169,15 +176,15 @@ i<QuartzCore/QuartzCore.h>
 i"AddOns.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.h
-c000000004BC8B55E00000000000002F6
-t1271444830
-s758
+c000000004BF713500000000000000333
+t1274483536
+s819
 i<Foundation/Foundation.h>
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm
-c000000004BC0E150000000000000180E
-t1270931792
-s6158
+c000000004BF727ED0000000000001988
+t1274488813
+s6536
 i"AddOns.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackJackGameModel.h
@@ -193,23 +200,25 @@ s213
 i"BlackJackGameModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.h
-c000000004BF5F17900000000000000F8
-t1274409337
-s248
+c000000004BF77F42000000000000013A
+t1274511170
+s314
 i<Foundation/Foundation.h>
 i"GameModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm
-c000000004BF605AB0000000000000228
-t1274414507
-s552
+c000000004BF7F2BC000000000000084A
+t1274540732
+s2122
 i"BlackjackGameModel.h"
+i"BlackjackPlayerModel.h"
+i"HotSpotModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackIncludes.h
-c000000004BF5F60600000000000000E0
-t1274410502
-s224
-i<Foundation/Foundation.h>
+c000000004BF5F63B00000000000000A7
+t1274410555
+s167
+i"BlackjackGameModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackIncludes.mm
 c000000004BF5F60600000000000000D2
@@ -217,10 +226,29 @@ t1274410502
 s210
 i"BlackjackIncludes.h"
 
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.h
+c000000004BF7F2CD00000000000001C2
+t1274540749
+s450
+i<Foundation/Foundation.h>
+i"PlayerModel.h"
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.m
+c000000004BF6FCC800000000000000DA
+t1274477768
+s218
+i"BlackjackPlayerModel.h"
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.mm
+c000000004BF7F1B4000000000000015B
+t1274540468
+s347
+i"BlackjackPlayerModel.h"
+
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.h
-c000000004BF6B311000000000000027B
-t1274458897
-s635
+c000000004BF6DAB90000000000000283
+t1274469049
+s643
 i<Foundation/Foundation.h>
 i"GameObjectModel.h"
 i"PlayerModel.h"
@@ -246,18 +274,31 @@ i"CardSharkAppDelegate.h"
 i"StartViewController.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.h
-c000000004BF6B2F200000000000001B6
-t1274458866
-s438
+c000000004BF725F700000000000002D9
+t1274488311
+s729
 i<Foundation/Foundation.h>
 i"GameObjectModel.h"
 i"PlayerModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm
-c000000004BF6B2FB0000000000000199
-t1274458875
-s409
+c000000004BF7232C0000000000000845
+t1274487596
+s2117
 i"CardStackModel.h"
+i"CardModel.h"
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/DeckModel.h
+c000000004BF6D7BD00000000000000E6
+t1274468285
+s230
+i<Foundation/Foundation.h>
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/DeckModel.mm
+c000000004BF6D7B200000000000000BA
+t1274468274
+s186
+i"DeckModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMDefines.h
 c000000004BAE120F0000000000002A25
@@ -304,10 +345,10 @@ i"GTMStackTrace.h"
 i"GTMObjC2Runtime.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameIncludes.h
-c000000004BF5F55500000000000000D6
-t1274410325
-s214
-i<Foundation/Foundation.h>
+c000000004BF5F64100000000000000A1
+t1274410561
+s161
+i"BlackjackIncludes.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameIncludes.mm
 c000000004BF5F55500000000000000C3
@@ -316,8 +357,8 @@ s195
 i"GameIncludes.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.h
-c000000004BF6B366000000000000037A
-t1274458982
+c000000004BF6D845000000000000037A
+t1274468421
 s890
 i<Foundation/Foundation.h>
 i"PlayerModel.h"
@@ -325,9 +366,9 @@ i"CardModel.h"
 i"CardStackModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm
-c000000004BF6B30A0000000000000562
-t1274458890
-s1378
+c000000004BF77F7200000000000005E2
+t1274511218
+s1506
 i"GameModel.h"
 i"CardModel.h"
 i"CardStackModel.h"
@@ -345,8 +386,8 @@ s221
 i<Foundation/Foundation.h>
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm
-c000000004BF55FE10000000000000173
-t1274372065
+c000000004BF6B3950000000000000173
+t1274459029
 s371
 i"GameObjectModel.h"
 
@@ -363,23 +404,23 @@ s324
 i"GameObjectView.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.h
-c000000004BD8C7BD0000000000000312
-t1272498109
-s786
+c000000004BF6C18A0000000000000350
+t1274462602
+s848
 i<UIKit/UIKit.h>
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.mm
-c000000004BF5F9C70000000000000C66
-t1274411463
-s3174
+c000000004BF6C8200000000000000C86
+t1274464288
+s3206
 i"GameViewController.h"
 i"GameModel.h"
-i"SettingsPopoverController.h"
+i"OptionsController.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.xib
-c000000004BD608010000000000003EE1
-t1272317953
-s16097
+c000000004BF6D96B0000000000004976
+t1274468715
+s18806
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GoFishGameModel.h
 c000000004BD8561200000000000000F3
@@ -395,17 +436,35 @@ s384
 i"GoFishGameModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.h
-c000000004BD89F0400000000000000F9
-t1272487684
-s249
+c000000004BF7F26600000000000001CC
+t1274540646
+s460
 i<Foundation/Foundation.h>
 i"GameObjectModel.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm
-c000000004BD89EAA00000000000000C4
-t1272487594
-s196
+c000000004BF7F27100000000000001D6
+t1274540657
+s470
 i"HotSpotModel.h"
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.h
+c000000004BF6BFA90000000000000157
+t1274462121
+s343
+i<UIKit/UIKit.h>
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.mm
+c000000004BF6BFC400000000000002A2
+t1274462148
+s674
+i"OptionsController.h"
+i"GameViewController.h"
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.xib
+c000000004BF6BE0800000000000050DF
+t1274461704
+s20703
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.h
 c000000004BF6054F00000000000000D5
@@ -414,8 +473,8 @@ s213
 i<Foundation/Foundation.h>
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm
-c000000004BF6054A00000000000000C0
-t1274414410
+c000000004BF6B37400000000000000C0
+t1274458996
 s192
 i"PlayerModel.h"
 
@@ -433,16 +492,17 @@ i"SettingsPopoverController.h"
 i"GameViewController.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.h
-c000000004BD9EC5C0000000000000253
-t1272573020
-s595
+c000000004BF6C34900000000000002F0
+t1274463049
+s752
 i<UIKit/UIKit.h>
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.mm
-c000000004BD9EEA50000000000000B89
-t1272573605
-s2953
+c000000004BF6C5000000000000000CE8
+t1274463488
+s3304
 i"StartDetailViewController.h"
+i"GameViewController.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.h
 c000000004BD9F19F00000000000001AF
@@ -451,12 +511,13 @@ s431
 i<UIKit/UIKit.h>
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.mm
-c000000004BF5F66B00000000000012C4
-t1274410603
-s4804
+c000000004BF6B7A400000000000012E6
+t1274460068
+s4838
 i"StartRootViewController.h"
 i"StartDetailViewController.h"
 i"GameModel.h"
+i"GameIncludes.h"
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartViewController.h
 c000000004BD9EBBF000000000000021A
@@ -481,44 +542,52 @@ t1272580537
 s31601
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/AddOns.o
-t1274410570
-s24168
+t1274511086
+s25184
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackJackGameModel.o
 t2
 s0
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackGameModel.o
-t1274458991
-s9124
+t1274540751
+s16136
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackIncludes.o
 t2
 s0
 
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackPlayerModel.o
+t1274540751
+s10508
+
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardModel.o
-t1274458898
-s10468
+t1274487601
+s10476
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardShark.LinkFileList
-c000000004BF605AB0000000000000AF8
-t1274414507
-s2808
+c000000004BF7F0C50000000000000C37
+t1274540229
+s3127
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardSharkAppDelegate.o
-t1274410569
+t1274487601
 s52220
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardStackModel.o
-t1274458875
-s10304
+t1274511086
+s16176
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/DeckModel.o
+t1274468723
+s5100
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMObjC2Runtime.o
-t1274410570
+t1274487601
 s4524
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMStackTrace.o
-t1274410570
+t1274487601
 s18244
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameIncludes.o
@@ -526,64 +595,72 @@ t2
 s0
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameModel.o
-t1274458991
-s15328
+t1274540229
+s16044
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectModel.o
-t1274410570
+t1274487601
 s5060
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectView.o
-t1274410570
+t1274487601
 s5056
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameViewController.o
-t1274458991
-s48256
+t1274511086
+s47956
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GoFishGameModel.o
 t1272575504
 s8436
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/HotSpotModel.o
-t1274410570
-s5068
+t1274540728
+s10660
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/OptionsController.o
+t1274487601
+s38508
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/PlayerModel.o
-t1274414508
+t1274487601
 s5044
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/SettingsPopoverController.o
-t1274410570
-s49060
+t1274487601
+s49076
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartDetailViewController.o
-t1274410570
-s43536
+t1274487601
+s45876
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartRootViewController.o
-t1274458991
-s45252
+t1274511175
+s45936
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartViewController.o
-t1274410570
+t1274487601
 s38828
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/main.o
-t1274410569
+t1274487601
 s7352
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app
-t1274458991
-s340
+t1274540751
+s374
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app.dSYM
-t1274458991
+t1274540751
 s102
 
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/Background.png
+t1274468722
+s2569211
+
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark
-t1274458991
-s70732
+t1274540751
+s85228
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark.momd
 t1272573496
@@ -594,8 +671,8 @@ t1272574023
 s1467
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/GameViewController.nib
-t1272573476
-s800
+t1274468723
+s1083
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/Info.plist
 t1272573474
@@ -604,6 +681,10 @@ s806
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/MainWindow.nib
 t1274410566
 s1972
+
+N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/OptionsController.nib
+t2
+s0
 
 N/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/PkgInfo
 t1272573474
@@ -621,11 +702,11 @@ t2
 s0
 
 N/var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch.gch
-t1274410569
+t1274487600
 s15101296
 
 N/var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch.gch
-t1274410569
+t1274487601
 s16104784
 
 NCardShark-Info.plist
@@ -635,11 +716,11 @@ s1238
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies296151791#296151791#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies296233551#296233551#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/AddOns.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296103370.057823
-e296103370.128251
+s296203886.158601
+e296203886.500432
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/AddOns.o
@@ -648,14 +729,14 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm296103370#296103370#0(0"0(0#0#75"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm4300911832#2140"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/AddOns.o0#
+lSLF07#2@83"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm296203886#296203886#0(0"0(0#0#75"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm4300911832#2140"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/AddOns.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/AddOns.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackJackGameModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackJackGameModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackGameModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296151791.803898
-e296151791.867215
+s296233551.073086
+e296233551.153683
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackGameModel.o
@@ -664,14 +745,30 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm296151791#296151791#0(0"0(0#0#87"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm4300911832#2164"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackGameModel.o0#
+lSLF07#2@95"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm296233551#296233551#0(0"0(0#0#87"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm4300911832#2164"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackGameModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackGameModel.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackIncludes.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackIncludes.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackPlayerModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackPlayerModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s296233551.096461
+e296233551.152681
+r1
+xCompileC
+xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackPlayerModel.o
+x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.mm296233551#296233551#0(0"0(0#0#89"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.mm4300911832#2168"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/BlackjackPlayerModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/BlackjackPlayerModel.o0#
+
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296151698.148159
-e296151698.216962
+s296180401.388742
+e296180401.450280
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardModel.o
@@ -680,11 +777,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.mm296151698#296151698#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.mm4300911832#2146"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardModel.o0#
+lSLF07#2@86"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.mm296180401#296180401#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.mm4300911832#2146"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardModel.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardSharkAppDelegate.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardSharkAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296103369.767147
-e296103370.009170
+s296180401.110607
+e296180401.206789
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardSharkAppDelegate.o
@@ -693,11 +790,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardSharkAppDelegate.m296103369#296103370#0(0"0(0#0#88"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardSharkAppDelegate.m4300911832#2146"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardSharkAppDelegate.m -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardSharkAppDelegate.o0#
+lSLF07#2@96"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardSharkAppDelegate.m296180401#296180401#0(0"0(0#0#88"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardSharkAppDelegate.m4300911832#2146"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardSharkAppDelegate.m -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardSharkAppDelegate.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardStackModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296151675.771839
-e296151675.878227
+s296203886.583241
+e296203886.703788
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardStackModel.o
@@ -706,11 +803,24 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm296151675#296151675#0(0"0(0#0#83"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm4300911832#2156"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardStackModel.o0#
+lSLF07#2@91"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm296203886#296203886#0(0"0(0#0#83"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm4300911832#2156"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/CardStackModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardStackModel.o0#
+
+CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/DeckModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/DeckModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s296161523.469927
+e296161523.525749
+r1
+xCompileC
+xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/DeckModel.o
+x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/DeckModel.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/DeckModel.mm296161523#296161523#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/DeckModel.mm4300911832#2146"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/DeckModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/DeckModel.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMObjC2Runtime.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMObjC2Runtime.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296103369.906587
-e296103370.057718
+s296180401.179625
+e296180401.291345
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMObjC2Runtime.o
@@ -719,11 +829,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMObjC2Runtime.m296103369#296103370#0(0"0(0#0#83"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMObjC2Runtime.m4300911832#2136"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMObjC2Runtime.m -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMObjC2Runtime.o0#
+lSLF07#2@91"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMObjC2Runtime.m296180401#296180401#0(0"0(0#0#83"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMObjC2Runtime.m4300911832#2136"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMObjC2Runtime.m -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMObjC2Runtime.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMStackTrace.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMStackTrace.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296103370.009281
-e296103370.171992
+s296180401.206903
+e296180401.356590
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMStackTrace.o
@@ -732,14 +842,14 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMStackTrace.m296103370#296103370#0(0"0(0#0#81"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMStackTrace.m4300911832#2132"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMStackTrace.m -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMStackTrace.o0#
+lSLF07#2@89"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMStackTrace.m296180401#296180401#0(0"0(0#0#81"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMStackTrace.m4300911832#2132"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GTMStackTrace.m -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GTMStackTrace.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameIncludes.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameIncludes.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296151791.674081
-e296151791.803658
+s296233029.066890
+e296233029.357928
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameModel.o
@@ -748,11 +858,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm296151791#296151791#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm4300911832#2146"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameModel.o0#
+lSLF07#2@86"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm296233029#296233029#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm4300911832#2146"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameModel.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296103370.234551
-e296103370.282871
+s296180401.450374
+e296180401.507376
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectModel.o
@@ -761,11 +871,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm296103370#296103370#0(0"0(0#0#84"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm4300911832#2158"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectModel.o0#
+lSLF07#2@92"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm296180401#296180401#0(0"0(0#0#84"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm4300911832#2158"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectModel.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectView.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectView.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296103370.253833
-e296103370.300210
+s296180401.475690
+e296180401.528535
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectView.o
@@ -774,11 +884,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectView.mm296103370#296103370#0(0"0(0#0#83"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectView.mm4300911832#2156"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectView.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectView.o0#
+lSLF07#2@91"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectView.mm296180401#296180401#0(0"0(0#0#83"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectView.mm4300911832#2156"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameObjectView.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameObjectView.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameViewController.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296151791.675423
-e296151791.778151
+s296203886.486080
+e296203886.583037
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameViewController.o
@@ -787,14 +897,14 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.mm296151791#296151791#0(0"0(0#0#87"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.mm4300911832#2164"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameViewController.o0#
+lSLF07#2@95"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.mm296203886#296203886#0(0"0(0#0#87"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.mm4300911832#2164"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GameViewController.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/GoFishGameModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GoFishGameModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/HotSpotModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296103370.172086
-e296103370.234451
+s296233528.297929
+e296233528.443122
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/HotSpotModel.o
@@ -803,11 +913,26 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm296103370#296103370#0(0"0(0#0#81"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm4300911832#2152"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/HotSpotModel.o0#
+o/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm:27: warning: property 'object' requires method '-object' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm:27: warning: property 'object' requires the method 'setObject:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@89"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm296233528#296233528#0(439"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm:27: warning: property 'object' requires method '-object' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm:27: warning: property 'object' requires the method 'setObject:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@120"Property 'object' requires method '-object' to be defined - use @synthesize, @dynamic or provide a method implementation296233528#0#216#0(6@81"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm296233457#27#0#27#0#0"0(22@127"Property 'object' requires the method 'setObject:' to be defined - use @synthesize, @dynamic or provide a method implementation296233528#216#223#0(6@81"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm296233457#27#0#27#0#0"0(0#0#81"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm4300911832#2152"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/HotSpotModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/HotSpotModel.o0#
+
+CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/OptionsController.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s296180401.837716
+e296180401.937383
+r1
+xCompileC
+xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/OptionsController.o
+x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.mm296180401#296180401#0(0"0(0#0#86"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.mm4300911832#2162"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/OptionsController.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/PlayerModel.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296107308.199586
-e296107308.269713
+s296180401.821374
+e296180401.864693
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/PlayerModel.o
@@ -816,11 +941,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm296107308#296107308#0(0"0(0#0#80"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm4300911832#2150"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/PlayerModel.o0#
+lSLF07#2@88"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm296180401#296180401#0(0"0(0#0#80"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm4300911832#2150"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/PlayerModel.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/PlayerModel.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/SettingsPopoverController.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/SettingsPopoverController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296103370.300309
-e296103370.442164
+s296180401.528635
+e296180401.652236
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/SettingsPopoverController.o
@@ -829,11 +954,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/SettingsPopoverController.mm296103370#296103370#0(0"0(0#0#94"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/SettingsPopoverController.mm4300911832#2178"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/SettingsPopoverController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/SettingsPopoverController.o0#
+lSLF07#2@102"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/SettingsPopoverController.mm296180401#296180401#0(0"0(0#0#94"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/SettingsPopoverController.mm4300911832#2178"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/SettingsPopoverController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/SettingsPopoverController.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartDetailViewController.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296103370.365643
-e296103370.437976
+s296180401.617485
+e296180401.691481
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartDetailViewController.o
@@ -842,11 +967,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.mm296103370#296103370#0(0"0(0#0#94"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.mm4300911832#2178"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartDetailViewController.o0#
+lSLF07#2@102"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.mm296180401#296180401#0(0"0(0#0#94"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.mm4300911832#2178"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartDetailViewController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartDetailViewController.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartRootViewController.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296151791.778396
-e296151791.868458
+s296203975.586252
+e296203975.672184
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartRootViewController.o
@@ -855,11 +980,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@100"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.mm296151791#296151791#0(0"0(0#0#92"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.mm4300911832#2174"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartRootViewController.o0#
+lSLF07#2@100"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.mm296203975#296203975#0(0"0(0#0#92"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.mm4300911832#2174"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartRootViewController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartRootViewController.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartViewController.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartViewController.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296103370.442254
-e296103370.536142
+s296180401.691576
+e296180401.773737
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartViewController.o
@@ -868,11 +993,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartViewController.mm296103370#296103370#0(0"0(0#0#88"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartViewController.mm4300911832#2166"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartViewController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartViewController.o0#
+lSLF07#2@96"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartViewController.mm296180401#296180401#0(0"0(0#0#88"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartViewController.mm4300911832#2166"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/StartViewController.mm -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/StartViewController.o0#
 
 CCompileC build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/main.o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296103369.746210
-e296103369.906491
+s296180401.109663
+e296180401.179522
 r1
 xCompileC
 xbuild/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/main.o
@@ -881,9 +1006,17 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/main.m296103369#296103369#0(0"0(0#0#64"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/main.m4300911832#2106"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/main.m -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/main.o0#
+lSLF07#2@72"Compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/main.m296180401#296180401#0(0"0(0#0#64"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/main.m4300911832#2106"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -include /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/main.m -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.xib
+s296161522.847601
+e296161523.206630
+r1
+xCompileXIB
+x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.xib
+lSLF07#2@41"CompileXIB Classes/GameViewController.xib296161522#296161523#0(0"0(0#0#88"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.xib4300911832#563"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/GameViewController.nib /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/GameViewController.xib0#
+
+CCompileXIB /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Classes/OptionsController.xib
 r0
 
 CCompileXIB /Users/asugaya/Documents/Projects/git/CardShark/CardShark/DetailView.xib
@@ -897,27 +1030,36 @@ xCompileXIB
 x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib296103362#296103366#0(0"0(0#0#72"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/MainWindow.xib4300911832#539"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/MainWindow.nib /Users/asugaya/Documents/Projects/git/CardShark/CardShark/MainWindow.xib0#
 
+CCpResource build/Debug-iphonesimulator/CardShark.app/Background.png Background.png
+s296161522.848420
+e296161522.998835
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CardShark.app/Background.png
+xBackground.png
+lSLF07#2@19"Copy Background.png296161522#296161522#0(0"0(0#0#72"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/Background.png4300911832#517"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/asugaya/Documents/Projects/git/CardShark/CardShark/Background.png /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app0#
+
 CDataModelVersionCompile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark.momd /Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark.xcdatamodeld
 r0
 
 CGenerateDSYMFile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app.dSYM /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark
-s296151791.897156
-e296151791.926914
+s296233551.188348
+e296233551.217006
 r1
 xGenerateDSYMFile
 x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app.dSYM
 x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/CardShark.app.dSYM build/Debug-iphonesimulator/CardShark.app/CardShark296151791#296151791#0(0"0(0#0#109"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark4300911832#446"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/CardShark.app.dSYM build/Debug-iphonesimulator/CardShark.app/CardShark296233551#296233551#0(0"0(0#0#109"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark4300911832#446"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app.dSYM0#
 
 CLd /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark normal i386
-s296151791.868517
-e296151791.897050
+s296233551.153741
+e296233551.188247
 r1
 xLd
 x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark
 xnormal
 xi386
-lSLF07#2@114"Link /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark296151791#296151791#0(0"0(0#0#0"4300911832#1009"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -filelist /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardShark.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark0#
+lSLF07#2@114"Link /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark296233551#296233551#0(0"0(0#0#0"4300911832#1009"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -filelist /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/Objects-normal/i386/CardShark.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -o /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/CardShark0#
 
 CProcessInfoPlistFile /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app/Info.plist CardShark-Info.plist
 r0
@@ -926,8 +1068,8 @@ CProcessPCH /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode
 r0
 
 CProcessPCH /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch.gch CardShark_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s296103366.750033
-e296103369.545029
+s296180396.697180
+e296180400.984110
 r1
 xProcessPCH
 x/var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch.gch
@@ -936,11 +1078,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile CardShark_Prefix.pch296103366#296103369#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark_Prefix.pch4300911832#1977"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark_Prefix.pch -o /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch.gch0#
+lSLF07#2@31"Precompile CardShark_Prefix.pch296180396#296180400#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark_Prefix.pch4300911832#1977"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark_Prefix.pch -o /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-fbtulaswrevxoyfzstkxukzfeena/CardShark_Prefix.pch.gch0#
 
 CProcessPCH++ /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch.gch CardShark_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s296103366.750874
-e296103369.746004
+s296180396.699241
+e296180401.109514
 r1
 xProcessPCH++
 x/var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch.gch
@@ -949,13 +1091,13 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@31"Precompile CardShark_Prefix.pch296103366#296103369#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark_Prefix.pch4300911832#1998"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark_Prefix.pch -o /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch.gch0#
+lSLF07#2@31"Precompile CardShark_Prefix.pch296180396#296180401#0(0"0(0#0#78"/Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark_Prefix.pch4300911832#1998"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-generated-files.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-own-target-headers.hmap -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-all-target-headers.hmap -iquote /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/CardShark-project-headers.hmap -F/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/include -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources/i386 -I/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/CardShark.build/Debug-iphonesimulator/CardShark.build/DerivedSources -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/CardShark_Prefix.pch -o /var/folders/i1/i1e3H5-9HgK3uoZGpBWcJ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardShark_Prefix-gijkjlvuhfmdqtehchwkijimnclq/CardShark_Prefix.pch.gch0#
 
 CTouch /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app
-s296151791.926992
-e296151791.930269
+s296233551.217090
+e296233551.219378
 r1
 xTouch
 x/Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app
-lSLF07#2@105"Touch /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app296151791#296151791#0(0"0(0#0#0"4300911832#318"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app0#
+lSLF07#2@105"Touch /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app296233551#296233551#0(0"0(0#0#0"4300911832#318"    cd /Users/asugaya/Documents/Projects/git/CardShark/CardShark    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/asugaya/Documents/Projects/git/CardShark/CardShark/build/Debug-iphonesimulator/CardShark.app0#
 

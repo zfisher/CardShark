@@ -7,10 +7,12 @@
 //
 
 #import "StartDetailViewController.h"
-
+#import "GameViewController.h"
 
 @implementation StartDetailViewController
 @synthesize popoverController, detailItem, navigationBar;
+@synthesize gameController;
+
 /*
  When setting the detail item, update the view and dismiss the popover controller if it's showing.
  */
@@ -26,6 +28,15 @@
     if (popoverController != nil) {
         [popoverController dismissPopoverAnimated:YES];
     }        
+	
+	[self startGame];
+	
+}
+
+-(void)startGame{
+	//Can use the detail item (game model) to set the controller's game.
+	[GameViewController getMaster].currentGameModel = (GameModel*)detailItem;
+	[self presentModalViewController:[GameViewController getMaster] animated:YES];
 }
 
 
@@ -34,7 +45,7 @@
 
 - (void)splitViewController: (UISplitViewController*)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem*)barButtonItem forPopoverController: (UIPopoverController*)pc {
     
-    barButtonItem.title = @"Root List";
+    barButtonItem.title = @"Games";
     [navigationBar.topItem setLeftBarButtonItem:barButtonItem animated:YES];
     self.popoverController = pc;
 }
@@ -108,6 +119,7 @@
  */
 
 - (void)dealloc {
+	[gameController release];
     [popoverController release];
     [navigationBar release];
     

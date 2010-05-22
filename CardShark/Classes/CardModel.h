@@ -15,7 +15,8 @@ typedef enum Suit{
 	SPADES,
 	CLUBS,
 	DIAMONDS,
-	HEARTS
+	HEARTS,
+	JOKER
 } Suit;
 
 @interface CardModel : GameObjectModel {
